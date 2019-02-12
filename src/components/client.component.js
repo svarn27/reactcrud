@@ -29,9 +29,12 @@ export default class Contacts extends Component {
             <thead>
               <tr>
                 <th>Name</th>
-                <th>Facebook ID</th>
-                <th>Timestamp</th>
-                <th colSpan="2">Action</th>
+                <th>Channel</th>
+                <th>Date/Time</th>
+                <th>Response?</th>
+                <th>Apt?</th>
+                <th>Sale?</th>
+                <th colSpan="2" style={{'text-align': 'center'}}>Action</th>
               </tr>
             </thead>
             <tbody>
